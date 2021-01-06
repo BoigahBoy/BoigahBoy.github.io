@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -20,6 +20,9 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<h1 style="text-align: center;"><a href="index.html">The Portfolio of Zackery A. Baker</a></h1>
+						<nav>
+						<a href="#menu">Menu</a>
+						</nav>
 					</header>
 
 				<!-- Menu -->
