@@ -77,12 +77,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-p.indent {
-	text-indent: 30px;
-	text-align: left;
-	
-}
-
 /* Basic */
 
 	@-ms-viewport {
@@ -261,6 +255,20 @@ p.indent {
 		margin: 0 0 2em 0;
 	}
 
+		p.indent {
+			text-indent: 30px;
+			text-align: left;
+			margin: 0 0 2em 0
+		}
+
+		p.title {
+			text-align: center;
+			margin: 0 0 2em 0
+		}
+
+
+
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-family: Raleway, Helvetica, sans-serif;
@@ -293,10 +301,12 @@ p.indent {
 		h3.title {
 			float: left;
 		}
+
 		h2.ending {
 			text-align: center;
 			padding-bottom: 1em;
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
+			cursor: pointer;
 		}
 
 	h2 {
