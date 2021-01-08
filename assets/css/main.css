@@ -73,6 +73,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+p.indent {
+	text-indent: 30px;
+}
+
 /* Basic */
 
 	@-ms-viewport {
