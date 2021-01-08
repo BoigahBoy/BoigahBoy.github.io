@@ -79,6 +79,7 @@ input, select, textarea {
 
 p.indent {
 	text-indent: 30px;
+	text-align: left;
 	
 }
 
@@ -291,6 +292,11 @@ p.indent {
 		}
 		h3.title {
 			float: left;
+		}
+		h2.ending {
+			text-align: center;
+			padding-bottom: 1em;
+			border-top: solid 2px rgba(255, 255, 255, 0.125);
 		}
 
 	h2 {
@@ -4183,3 +4189,10 @@ p.indent {
 		}
 
 	}
+
+	details > summary {
+		text-align: center;
+	}
+	details > summary::-webkit-details-marker {
+		display: none;
+	  }
