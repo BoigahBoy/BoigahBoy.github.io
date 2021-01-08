@@ -38,6 +38,10 @@ ol, ul {
 	list-style: none;
 }
 
+	ol.employment {
+		text-align: left;
+	}
+
 blockquote, q {
 	quotes: none;
 }
@@ -75,6 +79,7 @@ input, select, textarea {
 
 p.indent {
 	text-indent: 30px;
+	
 }
 
 /* Basic */
@@ -278,6 +283,14 @@ p.indent {
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 			padding-bottom: 1em;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+		}
+		h2.title {
+			text-align: center;
+			padding-bottom: 1em;
+			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+		}
+		h3.title {
+			float: left;
 		}
 
 	h2 {
@@ -2487,6 +2500,13 @@ p.indent {
 		padding-left: 1em;
 	}
 
+		ul.skills {
+			list-style: disc;
+			margin: 0 0 2em 0;
+			padding-left: 1em;
+			list-style-position: inside;
+		}
+
 		ul li {
 			padding-left: 0.5em;
 		}
@@ -3104,6 +3124,7 @@ p.indent {
 			margin-bottom: 0;
 			opacity: 1;
 			visibility: visible;
+			text-align: center;
 		}
 
 			#header h1 a {
@@ -4019,6 +4040,7 @@ p.indent {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		justify-content: center;
 		-moz-flex-direction: row;
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
